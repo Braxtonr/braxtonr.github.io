@@ -1,0 +1,14 @@
+body{
+    background: skyblue;
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+h1 {
+    color: green;
+}
+h2 {
+    color: pink;
+}
+p{
+    color: orange;
+}
