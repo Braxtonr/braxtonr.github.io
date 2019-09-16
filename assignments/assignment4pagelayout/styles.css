@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (min-width:900px) {
+    .twocolumn, .threecol, .images {
+        display: flex;
+    }
+}
+@media screen and (max-width:900px) {
+    nav{
+        display: block;
+        width: 200px;
+        height: 100%;
+        float: none;
+    }
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+    border-radius: 10px;
+}
+nav li {
+    float: left;
+}
+nav a {
+    display: flex;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+nav a:hover{
+    background: gray;
+}
+
+.twocolumn {
+    padding: 15px;
+    background:white;
+    border-radius: 10px;
+}
+
+.twocol1 {
+    background: orange;
+    flex: 1;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.twocol2 {
+    background: lightgreen;
+    flex: 1;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.threecol {
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+.threecol1 {
+    background: turquoise;
+    flex: 1;
+    padding: 15px;
+    border-radius: 15px;
+}
+.threecol2 {
+    background: green;
+    flex: 1;
+    padding: 15px;
+    border-radius: 15px;
+}
+.threecol3 {
+    background: yellow;
+    flex: 1;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.images {
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px;
+}
