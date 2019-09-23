@@ -1,0 +1,25 @@
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    background: darkgray;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    background: darkblue;
+    height: 50%;
+    width: 50%;
+    color: white;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+}
