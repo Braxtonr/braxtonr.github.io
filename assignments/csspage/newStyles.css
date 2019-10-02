@@ -1,0 +1,158 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header */
+#main-header {
+    background:#000;
+    color:#fff;
+}
+
+#main-header-top {
+    padding: 0 40px;
+}
+
+#main-header a {
+    color:#fff;
+    text-decoration: none;
+    display:flex;
+}
+
+#main-header img {
+    margin-right:10px;
+}
+
+/* Nav */
+#main-nav {
+    background:#73000A;
+}
+
+#main-nav ul {
+    list-style-type: none;
+}
+
+#main-nav li {
+    padding:10px;
+    font-size:16px;
+}
+
+/* content area */
+#main-content {
+    padding:20px;
+}
+
+.bigCol {
+    flex-basis: 75%;
+}
+
+.smallCol {
+    flex-basis:20%;
+}
+
+.sc-article {
+    margin: 20px 0;
+}
+
+.sc-article img {
+    margin-right:20px;
+}
+
+/* Banner */
+#banner {
+    display:flex;
+    justify-content: center;
+}
+
+/* Font Styles */
+h2 {
+    color:#73000A;
+    font-size:35px;
+}
+
+#main-footer {
+    background: #73000A;
+    display: flex;
+}
+#main-footer ul {
+    list-style-type: none;
+    padding: 15px;
+}
+#column {
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+#titles {
+    padding: 10px;
+    color: white;
+}
+#main-footer li {
+    padding: 10px;
+}
+#main-footer a {
+    color: white;
+    text-decoration: none;
+}
+#first {
+    flex-basis: 40%;
+}
+#second {
+    flex-basis: 30%;
+}
+#third {
+    flex-basis: 10%;
+}
+#bottom-foot ul {
+    padding: 15px;
+    display: flex;
+    background: black;
+    margin: auto;
+    
+}
+#bottom-foot a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+}
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+#hamburger {
+    display:none;
+}
+
+.hidden {
+    display:none;
+}
+@media (min-width:900px){
+    #main-nav ul {
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+    #main-content-junior {
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .sc-article {
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
+@media all and (max-width:500px){
+    #hamburger {
+        display: block;
+    }
+}
+
+#navItems.hidden {
+    display: none;
+}
