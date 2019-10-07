@@ -4,7 +4,7 @@
 }
 
 body {
-    background: black;
+    background: rgb(68, 63, 63);
 }
 .twoCol {
     display: flex;
