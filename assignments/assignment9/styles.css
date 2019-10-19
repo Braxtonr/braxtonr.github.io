@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: rgb(68, 63, 63);
+    color: white;
+}
+.twoCol {
+    display: flex;
+    border-radius: 30px;
+    padding: 15px;
+    align-content: center;
+}
+.col {
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #e60000;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.col h2{
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+}
