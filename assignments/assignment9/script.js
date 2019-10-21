@@ -22,7 +22,8 @@ function displayQuotes() {
 function displayLotto() {
 
     let hitsArr = new Array(5);
-    for(let i=0; i<hitsArr.length;i++)
+
+    for(let i=0; i < hitsArr.length; i++)
     {
         hitsArr[i] = Math.floor(Math.random() * 10) + 1; 
     }
@@ -30,22 +31,23 @@ function displayLotto() {
     let hitNum = document.createElement("p");
     this.before(hitNum);
 
-    for(let i = 0; i < hitsArr.length; i++)
+     for(let i = 0; i < hitsArr.length; i++)
     {
-        hitNum.innerHTML += hitsArr[i];
+         hitNum.innerHTML += hitsArr[i];
     }
 
-    let userNums = document.getElementsByClassName("lotto-num").value;
+    let userNums = document.getElementsByClassName("lotto-num");
+
     let isMatch = document.getElementsByClassName("match");
 
     for(let j = 0; j < userNums.length; j++)
     {
-        if(userNums[j] == hitsArr[j])
+        if(userNums[j].value == hitsArr[j])
         {
-            isMatch.innerText = "Match";
+            isMatch[j].innerText = "Match";
         }
         else {
-            isMatch.innerText = "Not a match";
+            isMatch[j].innerText = "Not a match";
         }
     }
 
