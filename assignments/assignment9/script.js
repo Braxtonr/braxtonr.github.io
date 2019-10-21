@@ -51,6 +51,17 @@ function displayLotto() {
         }
     }
 
+    let finalAns = document.createElement("p");
+    this.after(finalAns);
+
+    if(userNums == hitsArr)
+    {
+        finalAns.innerText = "You Won!"
+    }
+    else{
+        finalAns.innerText = "Better Luck Next Time!"
+    }
+
 }
 
 window.onload = function() {
