@@ -39,3 +39,7 @@ button{
 input {
     width: 100%;
 }
+
+p {
+    display: flex;
+}
