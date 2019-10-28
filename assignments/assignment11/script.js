@@ -65,7 +65,7 @@ bookArr = [];
 bookArr.push(new Book("images/cWeb.jpg","Charlotte's Web", "E.B. White", "Children's Literature", 1952, 4));
 bookArr.push(new Book("images/fahrenheit451.jpg","Fahrenheit 451", "Ray Bradbury", "Utopian and Dystopian Fiction", 1953, 2));
 bookArr.push(new Book("images/green-eggs.jpg","Green Eggs and Ham", "Dr. Seuss", "Children's Literature", 1960 , 5));
-bookArr.push(new Book("images/harryPot.jpg","Harry Potter", "JK Rowling", "Young Adult Fiction", 2007, 4));
+bookArr.push(new Book("images/harryPot.jpg","Harry Potter and the Deathly Hallows", "JK Rowling", "Young Adult Fiction", 2007, 4));
 bookArr.push(new Book("images/hunger-games.jpg","The Hunger Games", "Suzanne Collins", "Utopian and Dystopian Fiction", 2008, 5));
 
 contentDiv.append(headElem);
