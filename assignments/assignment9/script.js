@@ -65,7 +65,7 @@ function displayLotto() {
 }
 
 window.onload = function() {
-    this.setInterval(displayQuotes, 2000);
+    this.setInterval(displayQuotes(), 2000);
     let lottoBtn = document.getElementById("win-btn");
     lottoBtn.onclick = displayLotto;
 

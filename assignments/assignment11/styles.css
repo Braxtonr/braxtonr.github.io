@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: rgb(68, 63, 63);
+    color: black;
+}
+div {
+    background: #e60000;
+    border-radius: 5px;
+    padding: 10px;
+}
+section {
+    display: flex;
+    padding: 15px;
+}
+ h1 {
+     margin: auto;
+     text-align: center;
+ }
+p {
+    margin-left: 10px;
+}
