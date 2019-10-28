@@ -1,0 +1,16 @@
+[
+    {
+        "name": "x-men flyer",
+        "brand": "merrerl",
+        "price": "34.52",
+        "rating": "5",
+        "comments":["best shoe ever", "I love your shoe", "X-MEN"]
+    },
+    {
+        "name": "Air Max 270",
+        "brand": "Nike",
+        "price": "120",
+        "rating": "4",
+        "comments": ["nice", "comfy","stylish"]
+    }
+]
