@@ -2,11 +2,13 @@ async function displayMovies(){
     let response = await fetch("https://portiaportia.github.io/csce242/json/movies.json");
     let movieJSon = await response.json();
     let contentDiv = document.getElementById("content");
-
+    let pageName = document.createElement("h2");
+    pageName.innerHTML = "Movies";
+    contentDiv.append(pageName);
     for(i in movieJSon){
         let movie = movieJSon[i];
         contentDiv.append(getMovie(movie));
-    }
+    } 
 }
 
 function getMovie(movie){
@@ -18,6 +20,7 @@ function getMovie(movie){
     let movieDes = document.createElement("div");
     movieDes.className = "movie-content";
     movieSection.append(movieDes);
+    
     let movieName = document.createElement("h3");
     movieName.innerText = movie.title;
     movieImg.append(createImg("https://portiaportia.github.io/csce242/json/"+movie.img));

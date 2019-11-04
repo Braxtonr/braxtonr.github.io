@@ -3,17 +3,25 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
 }
+h2{
+    font-size: 20px;
+    margin:auto;
+}
+body{
+    background: #333333;
+}
 #content{
-    background: darkslategray;
-    padding: 50px;
+    background: red;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
 }
 .movies{
     display: flex;
     margin: 20px;
     padding: 15px;
-    width: 100%;
     background: firebrick;
-    border-radius: 5px;
 }
 .movie-content{
     padding: 10px;
