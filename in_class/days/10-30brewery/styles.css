@@ -1,0 +1,11 @@
+.brewery{   
+    background: goldenrod;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+#map {
+    width: 50%;
+    height: 400px;
+    background-color: grey;
+  }

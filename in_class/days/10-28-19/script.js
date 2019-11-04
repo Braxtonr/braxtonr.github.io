@@ -14,7 +14,7 @@ window.onload = function(){
 }*/
 
 async function displayShoe(){
-    let response = await fetch("https://braxtonr.github.io/in_class/days/10-28-19/shoe.json");
+    let response = await fetch("https://portiaportia.github.io/csce242/json/shoes.json");
     let shoeJSon = await response.json();
     let shoeName = shoeJSon.name;
     let shoeBrand = shoeJSon.brand;
